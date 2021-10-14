@@ -97,3 +97,10 @@ console.log(x, y);
 const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);
 */
+const firstName = "jonas";
+const job = "teacher";
+const birtYear = 1991;
+const year = 2037;
+
+const jonas = "I'm " + firstName + ', a ' + (year - birtYear) + ' years old ' + job + '!';
+console.log(jonas)
